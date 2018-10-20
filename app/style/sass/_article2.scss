@@ -1,0 +1,61 @@
+.article2 {
+  margin-top: 121px;
+  margin-left: 325px;
+  position: relative;
+  z-index: 200;
+  display: flex;
+  .readMoreWrap {
+    margin-top: 67px;
+    margin-left: 0;
+  }
+}
+.article2Text {
+  margin-left: 77px;
+  width: 390px;
+  position: relative;
+  p:first-of-type {
+    position: absolute;
+    top: 10px;
+    font-family: LeagueSpartan,sans-serif;
+    color: #f9f9f9;
+    font-size: 130px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .article1Line {
+    position: absolute;
+    top: 145px;
+    border: 1px solid #5da8ef;
+    width: 23px;
+  }
+  p:nth-of-type(2) {
+    margin-top: 88px;
+    position: relative;
+    z-index: 210;
+    font-family: PlayfairDisplay, serif;
+    color: #333333;
+    font-size: 42px;
+    text-align: left;
+  }
+  p:last-of-type {
+    margin-top: 54px;
+    font-family: Poppins-Light, sans-serif;
+    color: #616161;
+    font-size: 14px;
+    text-align: left;
+  }
+}
+.article2LeftCol {
+  position: absolute;
+  left: -80px;
+  top: 50px;
+  p {
+    font-family: LeagueSpartan,sans-serif;
+    color: #ebebeb;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: .52em;
+    transform: rotate(-90deg);
+    width: 110px;
+  }
+}

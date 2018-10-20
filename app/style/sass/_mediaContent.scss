@@ -1,0 +1,55 @@
+.mediaContent{
+  position: relative;
+  z-index: 200;
+  margin-top: 62px;
+  margin-left: 110px;
+  p {
+    margin-top: 59px;
+    margin-left: 117px;
+    font-family: Poppins-Light, sans-serif;
+    color: #616161;
+    font-size: 14px;
+    text-align: left;
+  }
+}
+.mediaImg {
+  width: 609px;
+  img {
+    width: 100%;
+  }
+}
+.mediaVideo {
+  position: absolute;
+  top: 43px;
+  left: 514px;
+  video {
+    width: 706px;
+  }
+}
+.readMoreWrap {
+  margin-top: 49px;
+  margin-left: 117px;
+  display: inline-block;
+  border-bottom: 3px solid #5da8ef;
+  width: 94px;
+  padding-bottom: 10px;
+  transition: .5s;
+  &:hover {
+    border-bottom: 3px solid #333333;
+  }
+  &:hover .readMore {
+    color: #5da8ef;
+  }
+  .readMore {
+    font-family: LeagueSpartan, sans-serif;
+    color: #333333;
+    font-size: 9px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .52em;
+    margin-right: -.52em;
+    text-align: center;
+    transition: .5s;
+  }
+}
+

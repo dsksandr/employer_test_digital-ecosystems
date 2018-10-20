@@ -1,0 +1,32 @@
+.quote {
+  position: relative;
+  margin-top: 190px;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    font-family: PlayfairDisplay, serif;
+    color: #333333;
+    font-size: 29px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .author {
+    margin-top: 29px;
+    font-family: LeagueSpartan, sans-serif;
+    color: #333333;
+    font-size: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .52em;
+  }
+  .quoteLine {
+    display: inline-block;
+    width: 2px;
+    background-color: #5da8ef;
+    height: 100px;
+    margin-top: 58px;
+  }
+}

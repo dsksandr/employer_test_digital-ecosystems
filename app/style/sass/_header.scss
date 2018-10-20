@@ -1,0 +1,123 @@
+.header {
+  position: relative;
+  z-index: 100;
+  margin-left: 110px;
+}
+header {
+  display: flex;
+  height: 44px;
+}
+.navItems {
+  a {
+    font-family: LeagueSpartan, sans-serif;
+    color: rgba(11, 12, 17, 0.9);
+    font-size: 9px;
+    line-height: 1;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .52em;
+    transition: .5s;
+    &:hover {
+      color: #5da8ef;
+    }
+  }
+}
+.logo {
+  a {
+    display: block;
+  }
+}
+nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-left: 190px;
+  ul {
+    display: flex;
+    li {
+      padding-left: 46px
+    }
+    li:first-of-type {
+       padding-left: 0;
+     }
+  }
+}
+.headerSlider {
+  position: relative;
+  height: 572px;
+  margin-top: 45px;
+}
+.headerSliderText {
+  position: absolute;
+  top: 199px;
+  z-index: 120;
+  p:first-of-type {
+    font-family: LeagueSpartan, sans-serif;
+    color:  #5da8ef;
+    font-size: 9px;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: .52em;
+  }
+  p:nth-of-type(2) {
+    font-family: PlayfairDisplay-Bold, serif;
+    color:  rgba(11, 12, 17, 0.9);
+    font-size: 62px;
+    line-height: 100%;
+    margin-top: 20px;
+  }
+  p:last-of-type {
+    font-family: Poppins-Light, sans-serif;
+    color: #8f8f8f;
+    font-size: 14px;
+    margin-top: 18px;
+  }
+}
+.headerSliderImg {
+  position: absolute;
+  left: 204px;
+  height: 100%;
+  z-index: 110;
+  box-shadow: -20px 0px 150px -25px rgba(0,0,0,0.5);
+  img {
+    display: block;
+    height: 100%;
+  }
+}
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 200;
+  right: 45px;
+  bottom: 0;
+  height: 640px;
+  p {
+    position: absolute;
+    font-family: LeagueSpartan,sans-serif;
+    color: #ebebeb;
+    font-size: 9px;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: .52em;
+    transform: rotate(-90deg);
+    width: 230px;
+    top: 120px;
+    left: -110px;
+  }
+}
+.headerSocial {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  i {
+    font-size: 18px;
+    margin-top: 33px;
+    color: #ebebeb;
+    transition: .5s;
+    &:hover {
+      color: #5da8ef;
+    }
+  }
+}

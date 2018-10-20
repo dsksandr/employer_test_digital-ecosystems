@@ -1,0 +1,15 @@
+.verticalLine {
+  position: absolute;
+  left: 110px;
+  top: 0;
+  display: flex;
+  height: 100%;
+  z-index: 1;
+  div{
+    border-right: 1px solid #ebebeb;
+    width: 305px;
+    &:first-of-type {
+      border-left: 1px solid #ebebeb;
+    }
+  }
+}
