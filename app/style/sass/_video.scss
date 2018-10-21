@@ -1,0 +1,17 @@
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 400;
+  background: url('../img/play_button.png') 50% 50% no-repeat;
+  transition: .5s;
+  background-size: 10%;
+  &:hover {
+    background-size: 10.5%;
+  }
+}
+.play{
+  background: none;
+}

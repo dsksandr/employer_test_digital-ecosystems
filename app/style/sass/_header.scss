@@ -48,6 +48,7 @@ nav {
 .headerSlider {
   position: relative;
   height: 572px;
+  width: 1016px;
   margin-top: 45px;
 }
 .headerSliderText {
@@ -81,7 +82,6 @@ nav {
   left: 204px;
   height: 100%;
   z-index: 110;
-  box-shadow: -20px 0px 150px -25px rgba(0,0,0,0.5);
   img {
     display: block;
     height: 100%;
