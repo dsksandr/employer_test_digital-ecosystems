@@ -1,11 +1,11 @@
 'use strict';
 
-let width = 435,
-    count = 3;
+const width = 435,
+      count = 3;
 
-let shopCarousel = document.querySelector('#shopCarousel'),
-    list = shopCarousel.querySelector('.list'),
-    goods = shopCarousel.querySelectorAll('.good');
+const shopCarousel = document.getElementById('shopCarousel'),
+      list = shopCarousel.querySelector('.list'),
+      goods = shopCarousel.querySelectorAll('.good');
 
 let position = 0;
 

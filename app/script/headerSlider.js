@@ -1,9 +1,10 @@
 'use strict';
 
-let slides = document.querySelectorAll('#headerSliderUl .slide'),
-    currentSlide = 0,
-    slideInterval = setInterval(nextSlide,5000),
-    pageNumber = document.querySelector('.pageNumber');
+const slides = document.querySelectorAll('#headerSliderUl .slide'),
+      slideInterval = setInterval(nextSlide,5000),
+      pageNumber = document.querySelector('.pageNumber');
+
+let currentSlide = 0;
 
 function nextSlide() {
   goToSlide(currentSlide + 1);
@@ -20,8 +21,8 @@ function goToSlide(n) {
   pageNumber.innerHTML = `<span>${currentSlide + 1} </span>/<span> ${slides.length}</span>`;
 }
 
-let next = document.getElementById('nextSlide'),
-    previous = document.getElementById('previousSlide');
+const next = document.getElementById('nextSlide'),
+      previous = document.getElementById('previousSlide');
 
 next.onclick =  () => nextSlide();
 

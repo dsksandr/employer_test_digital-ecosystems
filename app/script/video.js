@@ -1,7 +1,7 @@
 'use strict';
 
-let overlay = document.querySelector('.overlay'),
-    video = document.querySelector('#video');
+const overlay = document.querySelector('.overlay'),
+      video = document.getElementById('video');
 
 function play() {
   if (video.paused) {
@@ -14,5 +14,5 @@ function play() {
 }
 
 if (overlay.addEventListener) {
-  overlay.addEventListener("click", play, false)
+  overlay.addEventListener('click', play)
 }
