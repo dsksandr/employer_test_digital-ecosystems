@@ -53,7 +53,7 @@ gulp.task('font', () => {
 
 gulp.task('server', () => {
     return browsersync({
-        browser: ['chrome'],
+        browser: ['chrome', 'firefox'],
         server: {
             baseDir: 'dist',
             // routes: {
