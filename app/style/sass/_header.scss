@@ -20,6 +20,9 @@ header {
     &:hover {
       color: #5da8ef;
     }
+    &:active {
+      color: #37648f;
+    }
   }
 }
 .logo {
@@ -85,28 +88,28 @@ nav {
   }
 }
 .rightCol {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: absolute;
-  z-index: 200;
-  right: 45px;
-  bottom: 0;
-  height: 640px;
-  p {
-    position: absolute;
-    font-family: LeagueSpartan,sans-serif;
-    color: #ebebeb;
-    font-size: 9px;
-    text-transform: uppercase;
-    text-align: right;
-    letter-spacing: .52em;
-    transform: rotate(-90deg);
-    width: 230px;
-    top: 120px;
-    left: -110px;
-  }
-}
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   position: absolute;
+   z-index: 200;
+   right: 45px;
+   bottom: 0;
+   height: 640px;
+   p {
+     position: absolute;
+     font-family: LeagueSpartan,sans-serif;
+     color: #ebebeb;
+     font-size: 9px;
+     text-transform: uppercase;
+     text-align: right;
+     letter-spacing: .52em;
+     transform: rotate(-90deg);
+     width: 230px;
+     top: 120px;
+     left: -110px;
+   }
+ }
 .headerSocial {
   display: flex;
   flex-direction: column;
@@ -118,6 +121,9 @@ nav {
     transition: .5s;
     &:hover {
       color: #5da8ef;
+    }
+    &:active {
+      color: #37648f;
     }
   }
 }
