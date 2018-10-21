@@ -1,0 +1,39 @@
+.contacts {
+  position: relative;
+  z-index: 200;
+  display: flex;
+  margin-top: 150px;
+  p:first-of-type {
+    margin-top: 105px;
+    margin-left: 44px;
+    font-family: LeagueSpartan, sans-serif;
+    color: #ebebeb;
+    font-size: 9px;
+    text-align: left;
+    letter-spacing: .52em;
+    text-transform: uppercase;
+  }
+  p:last-of-type {
+    margin-top: 60px;
+    margin-left: 92px;
+    font-family: PlayfairDisplay-Bold, serif;
+    color: #333333;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: left;
+  }
+  .readMoreWrap {
+    margin-top: 67px;
+    margin-left: 44px;
+    width: 120px;
+    &:hover a {
+      color: #37648f;
+    }
+    &:active {
+      color: #333333;
+    }
+    a {
+      color: #5da8ef;
+    }
+  }
+}
