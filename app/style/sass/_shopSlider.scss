@@ -1,0 +1,58 @@
+
+.shopCarousel {
+  position: relative;
+  width: 398px;
+  padding: 10px 40px;
+  border: 1px solid #CCC;
+  border-radius: 15px;
+  background: #eee;
+}
+
+.arrow {
+  position: absolute;
+  top: 390px;
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 24px;
+  display: block;
+  transition: .5s;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.arrow:active {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.prevGoods {
+  left: 26px;
+}
+
+.nextGoods {
+  right: 26px;
+}
+
+.contentWrap {
+  margin-left: 110px;
+  width: 1305px;
+  overflow: hidden;
+}
+
+.list {
+  width: 10000px;
+  transition: margin-left 1000ms;
+}
+
+.good {
+  display: inline-block;
+}
