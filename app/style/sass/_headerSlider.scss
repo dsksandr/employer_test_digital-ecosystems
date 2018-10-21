@@ -3,6 +3,7 @@
   height: 100%;
   width: 100%;
 }
+
 .slide {
   position: absolute;
   left: 0;
@@ -13,19 +14,21 @@
   z-index: 200;
   transition: opacity 2s;
   img {
-    box-shadow: -20px 0px 150px -25px rgba(0,0,0,0.5);
+    box-shadow: -20px 0px 150px -25px rgba(0, 0, 0, 0.5);
   }
 }
+
 .showSlide {
   opacity: 1;
   z-index: 300;
 }
+
 .headerSliderControl {
   position: absolute;
   display: flex;
   top: 551px;
   font-family: LeagueSpartan, sans-serif;
-  color:  #ebebeb;
+  color: #ebebeb;
   font-size: 10px;
   text-align: center;
   .pageNumber {

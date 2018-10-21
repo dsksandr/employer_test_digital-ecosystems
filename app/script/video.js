@@ -1,5 +1,8 @@
+'use strict';
+
 let overlay = document.querySelector('.overlay'),
-  video = document.querySelector('#video');
+    video = document.querySelector('#video');
+
 function play() {
   if (video.paused) {
     video.play();
@@ -9,6 +12,7 @@ function play() {
     overlay.classList.remove('play');
   }
 }
+
 if (overlay.addEventListener) {
   overlay.addEventListener("click", play, false)
 }

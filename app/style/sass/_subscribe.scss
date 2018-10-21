@@ -44,13 +44,13 @@
       outline: none;
       padding: 10px 29px 0 29px;
       line-height: 1;
-      font-family: LeagueSpartan,sans-serif;
+      font-family: LeagueSpartan, sans-serif;
       font-size: 9px;
       letter-spacing: 0.52em;
       color: #333333;
       transition: .5s;
       &:focus {
-        border-color:#5da8ef;
+        border-color: #5da8ef;
       }
     }
     button {
@@ -62,7 +62,7 @@
       border: none;
       outline: none;
       cursor: pointer;
-      &:hover i{
+      &:hover i {
         color: #333333;
       }
     }

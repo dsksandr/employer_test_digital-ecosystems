@@ -1,8 +1,9 @@
-.mediaContent{
+.mediaContent {
   position: relative;
   z-index: 200;
   margin-top: 62px;
   margin-left: 110px;
+  height: 570px;
   p {
     margin-top: 59px;
     margin-left: 117px;
@@ -11,13 +12,21 @@
     font-size: 14px;
     text-align: left;
   }
+  .background {
+    position: absolute;
+    top: 400px;
+    left: -110px;
+    z-index: 100;
+  }
 }
+
 .mediaImg {
   width: 609px;
   img {
     width: 100%;
   }
 }
+
 .mediaVideo {
   position: absolute;
   top: 43px;
@@ -27,7 +36,10 @@
     width: 100%;
   }
 }
+
 .readMoreWrap {
+  position: relative;
+  z-index: 400;
   margin-top: 49px;
   margin-left: 117px;
   display: inline-block;

@@ -1,5 +1,5 @@
 .article1 {
-  margin-top: 173px;
+  margin-top: 200px;
   margin-left: 178px;
   position: relative;
   z-index: 200;
@@ -9,13 +9,14 @@
     margin-left: 0;
   }
 }
+
 .article1Text {
   width: 390px;
   position: relative;
   p:first-of-type {
     position: absolute;
     top: 10px;
-    font-family: LeagueSpartan,sans-serif;
+    font-family: LeagueSpartan, sans-serif;
     color: #f9f9f9;
     font-size: 130px;
     font-weight: 700;
@@ -44,12 +45,13 @@
     text-align: left;
   }
 }
+
 .article1RightCol {
   position: absolute;
   right: 30px;
   top: 50px;
   p {
-    font-family: LeagueSpartan,sans-serif;
+    font-family: LeagueSpartan, sans-serif;
     color: #ebebeb;
     font-size: 9px;
     text-transform: uppercase;
