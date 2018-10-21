@@ -34,9 +34,19 @@
           surfboard, and a wave.</p>
       </div>
       <div class="headerSliderImg">
-        <img src="img/headerSlider_img1.png" alt="img">
+        <ul id="headerSliderUl">
+          <li class="slide showSlide"><img src="img/headerSlider_img1.png" alt="img"></li>
+          <li class="slide"><img src="img/headerSlider_img2.png" alt="img"></li>
+          <li class="slide"><img src="img/headerSlider_img3.png" alt="img"></li>
+          <li class="slide"><img src="img/headerSlider_img4.png" alt="img"></li>
+          <li class="slide"><img src="img/headerSlider_img5.png" alt="img"></li>
+        </ul>
       </div>
-      <div class="headerSliderControl"></div>
+      <div class="headerSliderControl">
+        <button class="controls" id="previousSlide"><img src="img/leftArrow_grey.png" alt="left"></button>
+        <div class="pageNumber"><span>1 </span>/<span> 5</span></div>
+        <button class="controls" id="nextSlide"><img src="img/rightArrow_grey.png" alt="left"></button>
+      </div>
     </div>
     <div class="rightCol">
       <p>First Surfing Magazine</p>
@@ -56,9 +66,10 @@
     <div class="quoteLine"></div>
   </section>
   <section class="mediaContent">
-    <div class="mediaImg"><img src="img/media_img1.png" alt="img"></div>
+    <div class="mediaImg"><img src="img/mediaContent_img1.png" alt="img"></div>
     <div class="mediaVideo">
-      <video muted autoplay>
+      <div class="overlay"></div>
+      <video id="video" poster="img/mediaContent_videoPoster1.png">
         <source src="img/mediaContent_video1.mp4">
       </video>
     </div>
@@ -151,5 +162,7 @@
     <div></div>
   </div>
 </div>
+<script src="script/headerSlider.js"></script>
+<script src="script/video.js"></script>
 </body>
 </html>
